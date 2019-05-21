@@ -1,0 +1,369 @@
+@font-face {
+    font-family: GraublauSans-Regular; /* Гарнитура шрифта */
+    src: url(fonts/GraublauSans-Regular.otf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: GraublauSlab-Bold; /* Гарнитура шрифта */
+    src: url(fonts/GraublauSlab-Bold.otf); /* Путь к файлу со шрифтом */
+   }
+
+.wrapper {
+  background-color: #8F01FF;
+    height: 3800px;
+    padding-left: 25px;
+    padding-right: 15px;
+    background-image: url(img/bg-top.png);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.main-card-block {
+    background-image: url(img/hank-bg.png);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.top-head {
+    padding-top: 50px;
+}
+
+.logo.left {
+  width: 50%;
+  float: left;
+}
+
+.phone.right {
+    width: 50%;
+    float: right;
+}
+
+.call-me {
+    float: left;
+    margin-right: 15px;
+}
+
+.text-widget {
+    color: white;
+    font-size: 18px;
+    font-family: GraublauSans-Regular;
+}
+
+.mid-head {
+  color: white;
+  width: 75%;
+  margin-top: 130px;
+}
+
+.mid-head p {
+  font-family: GraublauSans-Regular;
+  font-size: 19px;
+}
+
+.mid-head p span {
+  color: #FF004D;
+}
+
+.mid-head h1 {
+  font-family: GraublauSlab-Bold;
+}
+
+.card-block {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 25px;
+  height: 300px;
+  margin-bottom: 50px;
+}
+
+.title-card-block.left {
+    width: 50%;
+    float: left;
+    padding-top: 35px;
+}
+
+.title-card-block.left img {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 15px;
+    float: left;
+}
+
+.title-card-block span {
+    color: white;
+    font-family: GraublauSans-Regular;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.card-date {
+    margin-top: 44px;
+    color: #8F00FF;
+    font-size: 25px;
+    font-family: GraublauSlab-Bold;
+}
+
+.card-title {
+    color: #17113B;
+    font-size: 38px;
+    font-family: GraublauSlab-Bold;
+    line-height: 100%;
+    margin-bottom: 40px;
+}
+
+.title-card-block.right img {
+    margin-left: 25px;
+    margin-bottom: -60px;
+}
+
+.left-b {
+    width: 80%;
+    float: left;
+    border: 2px solid #FF004D;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #FF004D;
+}
+
+.right-b img {
+  padding: 23px;
+  float: right;
+  border: 2px solid #8F00FF;
+  border-radius: 5px;
+}
+
+span.reg-button {
+    color: white;
+    font-family: GraublauSans-Regular;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.video {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+h2 {
+    font-family: GraublauSlab-Bold;
+    color: white;
+    align-content: center;
+}
+
+.bg-pixels {
+    background-image: url("img/444.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.big-text h1 {
+    color: white;
+    font-family: GraublauSlab-Bold;
+}
+
+.big-text p {
+    color: white;
+    font-family: GraublauSans-Regular;
+    font-size: 20px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.center-text p {
+    margin-top: -50px;
+    font-size: 25px;
+    background-image: url(img/mid-page-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.vk-foto img {
+    width: 100%;
+}
+
+.vk-foto h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.more-button {
+    width: 65%;
+    float: left;
+    border: 2px solid #FFD454;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #FFD454;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+span.img-count img {
+    width: 45px;
+}
+
+span.img-count {
+  font-family: GraublauSans-Semibold;
+  font-family: GraublauSans-Semibold;
+  color: white;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.bottom-box img {
+    width: 32px;
+}
+
+.right-box {
+    margin-top: 30px;
+    margin-right: 35px;
+    float: right;
+}
+
+span.button {
+    font-family: GraublauSans-Regular;
+    font-size: 25px;
+    color: #8F00FF;
+}
+
+.bottom-box {
+    margin-bottom: 120px;
+}
+
+.main-box-wrap {
+    margin-top: 155px;
+    text-align: center;
+}
+
+.main-box-wrap span {
+    color: white;
+    font-family: GraublauSlab-Bold;
+    font-size: 20px;
+}
+
+.main-box-wrap h2 {
+    margin-top: 25px;
+}
+
+.main-box-wrap img {
+    width: 100%;
+}
+
+.button-box img {
+    width: 40px;
+    margin-right: 15px;
+}
+
+.button-box {
+    width: 80%;
+    float: left;
+    border: 2px solid #FFFFFF;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    margin-top: 25px;
+    margin-left: 10%;
+}
+
+.button-box span {
+    color: #8F00FF;
+    font-family: GraublauSans-Regular;
+    font-size: 22px;
+}
+
+.bottom-box-footer {
+    background-image: url(img/bg-bottom.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-color: #8F01FF;
+}
+
+.bottom-box-footer p {
+    padding-top: 255px;
+    color: white;
+    font-family: GraublauSans-Regular;
+    font-size: 20px;
+    padding-left: 60px;
+    padding-right: 40px;
+}
+
+.contact-box {
+    padding: 20px 90px;
+    color: white;
+    font-family: GraublauSans-Regular;
+}
+
+span.bottom-number a {
+    color: white;
+    font-size: 35px;
+}
+
+span.contact-time {
+    color: gray;
+    font-size: 20px;
+}
+
+.pixel-bg-bottom {
+    background-image: url(img/pix-bg-bottom.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.footer {
+    background-color: #0E0020;
+    height: 470px;
+}
+
+.footer-menu-box {
+    margin-bottom: 60px;
+}
+
+.footer-menu-box ul {
+    color: white;
+    list-style: none;
+    font-family: GraublauSans-Regular;
+    font-size: 25px;
+}
+
+.footer-menu-box ul li span {
+    border-bottom: 5px solid #8F00FF;
+}
+
+.footer-menu-box li {
+    margin-bottom: 25px;
+}
+
+.footer-social-box ul {
+    list-style: none;
+}
+
+.footer-social-box li {
+    float: left;
+    font-size: 45px;
+    margin-right: 25px;
+}
+
+.footer-social-box a {
+    color: white;
+}
+
+i.fab.fa-instagram {
+    border-right: 2px solid #390066;
+    padding-right: 24px;
+}
+
+i.fab.fa-vk {
+    border-right: 2px solid #390066;
+    padding-right: 24px;
+}
+
+i.fab.fa-facebook-f {
+    border-right: 2px solid #390066;
+    padding-right: 24px;
+}
